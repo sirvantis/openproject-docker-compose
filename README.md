@@ -11,7 +11,7 @@ First, you must clone the [openproject-docker-compose](https://github.com/sirvan
 git clone https://github.com/sirvantis/openproject-docker-compose/.git --depth=1 --branch=stable/17 openproject
 ```
 
-Copy the example `.env` file and edit any values you want to change:
+Edit any values you want to change:
 
 ```shell
 nano .env
