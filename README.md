@@ -14,8 +14,7 @@ git clone https://github.com/sirvantis/openproject-docker-compose/.git --depth=1
 Copy the example `.env` file and edit any values you want to change:
 
 ```shell
-cp .env.example .env
-vim .env
+nano .env
 ```
 
 If you are using the default value of OPDATA that is used in the ```.env.example``` you need to make sure that the folder exist, and you have the right permissions:
