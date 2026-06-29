@@ -3,16 +3,12 @@
 This repository contains the installation method for OpenProject using Docker Compose.
 
 
-> [!NOTE]
-> Looking for the Kubernetes installation method?
-> Please use the [OpenProject helm chart](https://charts.openproject.org) to install OpenProject on kubernetes.
-
 ## Quick start
 
-First, you must clone the [openproject-docker-compose](https://github.com/opf/openproject-docker-compose) repository:
+First, you must clone the [openproject-docker-compose](https://github.com/sirvantis/openproject-docker-compose/) repository:
 
 ```shell
-git clone https://github.com/opf/openproject-docker-compose.git --depth=1 --branch=stable/17 openproject
+git clone https://github.com/sirvantis/openproject-docker-compose/.git --depth=1 --branch=stable/17 openproject
 ```
 
 Copy the example `.env` file and edit any values you want to change:
