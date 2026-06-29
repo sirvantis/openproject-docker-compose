@@ -28,6 +28,11 @@ Activate enterprise version:
 ```shell
 docker build .
 ```
+COPY TAG on a new docker image:
+
+```shell
+docker tag <IMAGE_ID_WITH_ENTERPRISE_TOKEN> openproject/openproject:17-slim
+```
 Next you start up the containers in the background while making sure to pull the latest versions of all used images.
 
 ```shell
