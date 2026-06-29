@@ -8,7 +8,7 @@ This repository contains the installation method for OpenProject using Docker Co
 First, you must clone the [openproject-docker-compose](https://github.com/sirvantis/openproject-docker-compose/) repository:
 
 ```shell
-git clone https://github.com/sirvantis/openproject-docker-compose/.git --depth=1 --branch=stable/17 openproject
+git clone https://github.com/sirvantis/openproject-docker-compose
 ```
 
 Edit any values you want to change:
